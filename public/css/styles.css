@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body { /*default body style (black Verdana)*/
-  font-family:Verdana;
-  color:#000000; 
+  font-family:'Poppins', sans-serif;
+  color:#F9A394; 
 }
 
 .menu { /* menu style */
@@ -14,12 +14,13 @@ body { /*default body style (black Verdana)*/
 }
 
 .menu a { /* style of links within menus */
-  background-color: #28ED31;
+  background-color: #F9A394;
   padding: 8px;
   margin-top: 7px;
   display: block;
-  width: 100%;
-  color: black;
+  text-align: center;
+  width: 85%;
+  color: #202B34;
 }
 
 .responsive { /* makes elements,resize responsively,*/
@@ -36,9 +37,9 @@ body { /*default body style (black Verdana)*/
 
 .main {
   float: left;
-  background-color: #dd2118;
+  background-color: #ffffff;
   width: 60%;
-  padding: 0 20px;
+  padding: 0 0px;
   text-align: center;
 }
 
@@ -57,3 +58,53 @@ body { /*default body style (black Verdana)*/
     width: 100%;
   }
 }
+
+.btn.btn-primary{
+  color:#fff;
+  background-color:#F9A394;
+  border-color:#F9A394;
+}
+
+.btn.btn-primary:hover{
+  color:#fff;
+  background-color:#202B34;
+  border-color:#202B34;
+}
+
+.btn.btn-primary:active{
+  color:#fff;
+  background-color:#2D3F4C;
+  border-color:#2D3F4C;
+}
+
+.nav.nav.nav-pills.nav-fill{
+  height: 65px;
+  color: #fff;
+  background-color: #202B34;
+}
+
+.nav.nav-pills .nav-link.active{
+  background-color: #3e5463;
+}
+
+.nav.nav-pills .nav-link{
+  padding-top: 30px;
+  color: #fff;
+
+}
+
+.navbar.navbar {
+  background-color: #202B34;
+  color: #F9A394;
+}
+
+.navbar-brand.navbar-brand{
+  color: #F9A394;
+}
+
+.bg-light.bg-light {
+  background-color: #202B34!important;
+  color:#F9A394;
+  opacity: 1;
+}
+
